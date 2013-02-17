@@ -2,7 +2,7 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
   <Identity Name="7a899755-1d3f-4923-98da-fc701c3d0d4a" Publisher="CN=Pascal" Version="1.0.0.0" />
   <Properties>
-    <DisplayName>App1</DisplayName>
+    <DisplayName>Store App Showcase</DisplayName>
     <PublisherDisplayName>Pascal</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using App1.Common;
+using Showcase.Common;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -15,12 +15,12 @@ using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
-namespace App1
+namespace Showcase.Views
 {
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class AppBarButtons : App1.Common.LayoutAwarePage
+    public sealed partial class AppBarButtons : Showcase.Common.LayoutAwarePage
     {
         public AppBarButtons()
         {

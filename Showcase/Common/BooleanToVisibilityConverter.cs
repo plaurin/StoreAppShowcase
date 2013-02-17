@@ -11,7 +11,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
 
-namespace App1.Common
+namespace Showcase.Common
 {
     /// <summary>
     /// Value converter that translates true to <see cref="Visibility.Visible"/> and false to

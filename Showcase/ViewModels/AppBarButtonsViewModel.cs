@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace App1.ViewModels
+namespace Showcase.ViewModels
 {
     class AppBarButtonsViewModel
     {
@@ -13,7 +13,7 @@ namespace App1.ViewModels
             {
                 var result = new List<Button>();
 
-                foreach (var styleName in Styles)
+                foreach (var styleName in this.Styles)
                 {
                     var button = new Button();
                     var style = Application.Current.Resources[styleName] as Style;

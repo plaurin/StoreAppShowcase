@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Showcase.DataModel;
+using Showcase.Views;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -16,7 +18,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=234227
 
-namespace App1
+namespace Showcase
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -64,7 +66,10 @@ namespace App1
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(AppBarButtons), args.Arguments))
+
+                //if (!rootFrame.Navigate(typeof(SplitPage), new SampleDataSource().AllGroups.First().UniqueId))
+                if (!rootFrame.Navigate(typeof(ItemsPage), "AllGroups"))
+                //if (!rootFrame.Navigate(typeof(ItemsPage), args.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }

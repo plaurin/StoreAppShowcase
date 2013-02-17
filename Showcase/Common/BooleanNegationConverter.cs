@@ -1,7 +1,7 @@
 ﻿using System;
 using Windows.UI.Xaml.Data;
 
-namespace App1.Common
+namespace Showcase.Common
 {
     /// <summary>
     /// Value converter that translates true to false and vice versa.
